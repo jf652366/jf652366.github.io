@@ -6,6 +6,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ## Quick Start1231321321312
 
 ### Create a new post
+测试自动部署
 
 ``` bash
 $ hexo new "My New Post"
