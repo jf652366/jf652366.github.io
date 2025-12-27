@@ -1,0 +1,9 @@
+# Package Management
+Always use `yarn` for package management. Do not use `npm` for installing dependencies.
+
+- Install dependencies: `yarn install`
+- Add a package: `yarn add <package>`
+- Remove a package: `yarn remove <package>`
+- Run scripts: `yarn <script>`
+- Start project: `yarn server`
+
