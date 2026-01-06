@@ -26,8 +26,9 @@ menu_settings:
   icons: true
   badges: true
 
+
 # ---------------------------------------------------------------
-# Sidebar Settings
+# Scheme Settings
 # ---------------------------------------------------------------
 
 sidebar:
@@ -142,8 +143,8 @@ local_search:
   enable: true
 
 # Creative Commons License
-# creative_commons:
-#   license: by-nc-sa
-#   sidebar: true
-#   post: true
-#   # language:
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: true
+  # language:
