@@ -7,3 +7,7 @@ Always use `yarn` for package management. Do not use `npm` for installing depend
 - Run scripts: `yarn <script>`
 - Start project: `yarn server`
 
+# Git Commit Messages
+When generating git commit messages, always use Chinese (Simplified).
+Format: <type>(<scope>): <subject>
+Example: feat(blog): 添加新的文章归档功能
