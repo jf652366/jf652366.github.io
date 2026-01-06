@@ -136,3 +136,7 @@ motion:
 body_scrollbar:
   overlay: true
   stable: true
+
+# Local Search
+local_search:
+  enable: true
