@@ -121,3 +121,18 @@ footer:
   powered: false
   # Copyright info
   copyright: false
+
+# ---------------------------------------------------------------
+# Animation Settings
+# ---------------------------------------------------------------
+
+# Use Velocity.js to animate everything.
+motion:
+  enable: false
+
+# ---------------------------------------------------------------
+# Custom Page Settings
+# ---------------------------------------------------------------
+body_scrollbar:
+  overlay: true
+  stable: true
