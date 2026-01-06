@@ -140,3 +140,10 @@ body_scrollbar:
 # Local Search
 local_search:
   enable: true
+
+# Creative Commons License
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: true
+  language:
