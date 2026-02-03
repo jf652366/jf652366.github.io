@@ -3,12 +3,6 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
-  "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs",
-    "deploy": "gh-pages -d docs/.vitepress/dist"
-  },
   "dependencies": {
     "fuse.js": "^6.6.2"
   },
