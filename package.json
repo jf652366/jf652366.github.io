@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "fuse.js": "^6.6.2"
+    "flexsearch": "^0.7.31"
   },
   "devDependencies": {
     "vitepress": "^1.6.4",
@@ -12,6 +12,13 @@
     "gray-matter": "^4.0.3",
     "feed": "^4.2.2",
     "glob": "^10.3.3"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "postbuild": "node scripts/build-search-index.js && node scripts/generate-feeds.js && node scripts/generate-tags.js",
+    "serve": "vitepress serve docs",
+    "deploy": "gh-pages -d docs/.vitepress/dist"
   },
   "scripts": {
     "dev": "vitepress dev docs",

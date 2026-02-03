@@ -11,17 +11,25 @@
 
 <script setup>
 import { ref } from 'vue'
-import Fuse from 'fuse.js'
+import FlexSearch from 'flexsearch'
 
 const q = ref('')
 const results = ref([])
-let fuse
+let index
 
 async function loadIndex() {
   try {
     const res = await fetch('/search-index.json')
-    const index = await res.json()
-    fuse = new Fuse(index, { keys: ['title', 'body', 'tags'], threshold: 0.4 })
+    const docs = await res.json()
+    // build a simple document index
+    index = new FlexSearch.Document({
+      document: {
+        id: 'url',
+        index: ['title', 'body', 'tags'],
+        store: ['title', 'url']
+      }
+    })
+    for (const d of docs) index.add(d)
   } catch (e) {
     console.warn('failed to load search index', e)
   }
@@ -30,11 +38,19 @@ async function loadIndex() {
 loadIndex()
 
 function onInput() {
-  if (!q.value || !fuse) {
+  if (!q.value || !index) {
     results.value = []
     return
   }
-  results.value = fuse.search(q.value).slice(0, 10).map(r => r.item)
+  const res = index.search(q.value, { enrich: true, limit: 10 })
+  // merge results from different fields
+  const seen = new Map()
+  for (const r of res) {
+    for (const item of r.result) {
+      if (!seen.has(item)) seen.set(item, index.store[item])
+    }
+  }
+  results.value = Array.from(seen.values()).slice(0, 10)
 }
 </script>
 
