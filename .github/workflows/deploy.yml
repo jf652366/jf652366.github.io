@@ -1,4 +1,8 @@
 name: Deploy VitePress site
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 on:
   push:
