@@ -4,6 +4,8 @@ import matter from 'gray-matter'
 
 const docsDir = path.resolve(process.cwd(), 'docs')
 const tagsDir = path.resolve(docsDir, 'tags')
+const publicDir = path.resolve(process.cwd(), 'docs/public')
+if (!fs.existsSync(publicDir)) fs.mkdirSync(publicDir, { recursive: true })
 
 if (!fs.existsSync(tagsDir)) fs.mkdirSync(tagsDir, { recursive: true })
 
@@ -44,5 +46,9 @@ for (const [t, posts] of tagMap) {
   const content = `---\ntitle: ${t}\n---\n\n# ${t}\n\n${list}`
   fs.writeFileSync(path.join(tagsDir, `${t}.md`), content)
 }
+
+// Also write a simple public tags index for static hosting
+const publicIndex = `<?xml version="1.0" encoding="UTF-8"?><tags>\n${[...tagMap.keys()].map(t => `  <tag name="${t}" />`).join('\n')}\n</tags>`
+fs.writeFileSync(path.join(publicDir, 'tags.xml'), publicIndex)
 
 console.log('tags generated', tagMap.size)

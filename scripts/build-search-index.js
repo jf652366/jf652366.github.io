@@ -3,7 +3,7 @@ import path from 'path'
 import matter from 'gray-matter'
 
 const docsDir = path.resolve(process.cwd(), 'docs')
-const outDir = path.resolve(process.cwd(), 'docs/.vitepress/public')
+const outDir = path.resolve(process.cwd(), 'docs/public')
 
 const files = []
 

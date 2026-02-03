@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 import { Feed } from 'feed'
 
 const docsDir = path.resolve(process.cwd(), 'docs')
-const outDir = path.resolve(process.cwd(), 'docs/.vitepress/public')
+const outDir = path.resolve(process.cwd(), 'docs/public')
 
 const site = {
   title: 'jf652366',
