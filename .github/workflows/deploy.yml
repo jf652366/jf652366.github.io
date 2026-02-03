@@ -21,6 +21,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }} # optional, set if GITHUB_TOKEN lacks permission
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs/.vitepress/dist
           cname: jf652366.github.io
+          allow_empty_commit: true

@@ -1,6 +1,8 @@
 # jf652366.github.io
 
-个人博客项目，基于 [Hexo](https://hexo.io/) 框架构建，使用 [NexT](https://theme-next.js.org/) 主题。
+个人博客项目，基于 [VitePress](https://vitepress.vuejs.org/) 构建，采用自定义轻量主题（可选：Valaxy / 其他）。
+
+注意：本仓库已迁移为 VitePress。CI 使用 `npm ci` 且部署到 GitHub Pages。若部署失败，请在仓库 Secrets 中设置 `PERSONAL_TOKEN`（带 repo 权限）。
 
 ## 🛠️ 技术栈
 
