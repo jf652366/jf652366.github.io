@@ -1,11 +1,5 @@
 [
   {
-    "title": "留言",
-    "url": "/guestbook.md",
-    "body": "\n留言区（使用 utterances）。\n\n<section id=\"comments\" \n  <script src=\"https://utteranc.es/client.js\"\n          repo=\"jf652366/jf652366.github.io\"\n          issue-term=\"pathname\"\n          theme=\"github-light\"\n          crossorigin=\"anonymous\"\n          async \n  </script \n</section \n",
-    "tags": []
-  },
-  {
     "title": "首页",
     "url": "/index.md",
     "body": "\n柏川记录\n\n-  常用网站 (/常用网站)\n",
