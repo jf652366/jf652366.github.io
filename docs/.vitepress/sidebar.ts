@@ -30,6 +30,7 @@ export function generateSidebar() {
     sidebar[`/${section}/`] = [
       {
         text: nameMap[section] || section,
+        link: `/${section}/`,
         collapsed: false,
         items: getItems(section)
       }
