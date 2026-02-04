@@ -14,9 +14,9 @@ jobs:
         with:
           node-version: 18
       - name: Install
-        run: npm ci
+        run: yarn install --frozen-lockfile
       - name: Build
-        run: npm run build
+        run: yarn build
       - name: Validate generated files exist
         run: |
           test -f docs/.vitepress/dist/index.html
