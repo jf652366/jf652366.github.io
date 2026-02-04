@@ -13,10 +13,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'npm'
       - name: Install
-        run: yarn install --frozen-lockfile
+        run: npm ci
       - name: Build
-        run: yarn build
+        run: npm run build
       - name: Validate generated files exist
         run: |
           test -f docs/.vitepress/dist/index.html

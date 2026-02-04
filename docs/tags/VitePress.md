@@ -1,0 +1,8 @@
+---
+title: VitePress
+---
+
+# VitePress
+
+- [VitePress 项目初始化](/notes/01-常用网站.md)
+- [笔记总揽](/notes/index.md)
