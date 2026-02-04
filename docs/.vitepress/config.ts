@@ -16,6 +16,9 @@ export default defineConfig({
           { text: '常用网站', link: '/常用网站' }
         ]
       }
-    ]
+    ],
+     search: {
+      provider: 'local'
+    }
   }
 })
