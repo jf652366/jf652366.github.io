@@ -4,6 +4,7 @@ export default defineConfig({
   title: '柏川记录',
   description: '柏川记录',
   base: '/',
+  cleanUrls:true,
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
