@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'jf652366',
-  description: '迁移后的 VitePress 站点',
+  title: '柏川记录',
+  description: '柏川记录',
   base: '/',
   themeConfig: {
     nav: [
