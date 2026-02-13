@@ -1,0 +1,75 @@
+---
+title: 常用网站02 
+description: 柏川常用网站
+tags: [ 技术文档 ]
+---
+
+常用网站汇总02
+
+### 学习02
+#### vue 风格指南
+[https://v2.cn.vuejs.org/v2/style-guide/](https://v2.cn.vuejs.org/v2/style-guide/)
+
+#### 前端优秀框架排行
+[https://bestofjs.org/](https://bestofjs.org/)
+
+#### 开发学习路线图
+[https://roadmap.sh/](https://roadmap.sh/)
+
+#### 前端年度调查
+[https://2024.stateofreact.com/zh-Hans/other-tools/](https://2024.stateofreact.com/zh-Hans/other-tools/)
+
+#### MobX
+[https://www.mobxjs.com/](https://www.mobxjs.com/)
+
+#### 编程语言排行榜
+[https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
+
+### 工具
+#### 思维导图
+[https://www.processon.com/](https://www.processon.com/)
+
+#### 画图
+[https://excalidraw.com/](https://excalidraw.com/)
+
+#### 页面性能测试工具
+[https://pagespeed.web.dev/](https://pagespeed.web.dev/)
+
+#### 在线代码
+[https://codesandbox.io/](https://codesandbox.io/)
+
+#### 图床
+[https://picx.xpoet.cn/#/upload](https://picx.xpoet.cn/#/upload)
+
+#### 代码美化
+> 生成代码美化图片
+>
+[https://carbon.now.sh/](https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false)
+
+#### 在线部署
+> 服务部署
+>
+[https://dash.cloudflare.com/8f402a117672ec1c4fe2a918740967cd/home/domains](https://dash.cloudflare.com/8f402a117672ec1c4fe2a918740967cd/home/domains)
+
+
+
+### 工作
+#### 阿里云效
+[https://devops.aliyun.com/workbench?orgId=65bda0cc3f687c52631c610e](https://devops.aliyun.com/workbench?orgId=65bda0cc3f687c52631c610e)
+
+### 资源
+#### 魔法
+[https://iguge.net/](https://iguge.net/)
+
+#### 狗狗加速
+[https://bitbucket.org/doggygo/url/src/main/](https://bitbucket.org/doggygo/url/src/main/)
+
+### AI
+#### ai 排行榜
+[https://www.superclueai.com/arena?type=video&tab=arena](https://www.superclueai.com/arena?type=video&tab=arena)
+
+####  魔搭社区
+[https://modelscope.cn/home](https://modelscope.cn/home)
+
+#### 优秀 skill 仓库
+[https://skillsmp.com](https://skillsmp.com)
