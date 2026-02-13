@@ -5,7 +5,7 @@ export const nav =[
 	},
 	{
 		text: '笔记',
-		link: '/docs/notes/01-常用网站'
+		link: '/docs/notes/01-常用网站.html'
 	}
 ]
 
