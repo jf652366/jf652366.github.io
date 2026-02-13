@@ -4,14 +4,14 @@
         <title>jf652366</title>
         <link>https://jf652366.github.io</link>
         <description>迁移后的 VitePress 站点</description>
-        <lastBuildDate>Fri, 13 Feb 2026 08:49:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Feb 2026 08:51:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[首页]]></title>
             <link>https://jf652366.github.io/</link>
             <guid>https://jf652366.github.io/</guid>
-            <pubDate>Fri, 13 Feb 2026 08:49:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
             <content:encoded><![CDATA[
 柏川记录
 
@@ -21,7 +21,7 @@
             <title><![CDATA[VitePress 项目初始化]]></title>
             <link>https://jf652366.github.io/notes/01-常用网站</link>
             <guid>https://jf652366.github.io/notes/01-常用网站</guid>
-            <pubDate>Fri, 13 Feb 2026 08:49:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
             <description><![CDATA[从 0 搭建一个可用于知识库的 VitePress 项目]]></description>
             <content:encoded><![CDATA[
 常用网站汇总
@@ -99,7 +99,7 @@
             <title><![CDATA[笔记总揽]]></title>
             <link>https://jf652366.github.io/notes/</link>
             <guid>https://jf652366.github.io/notes/</guid>
-            <pubDate>Fri, 13 Feb 2026 08:49:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
             <description><![CDATA[从 0 搭建一个可用于知识库的 VitePress 项目]]></description>
             <content:encoded><![CDATA[
 # 笔记总揽
@@ -109,39 +109,39 @@
             <title><![CDATA[VitePress]]></title>
             <link>https://jf652366.github.io/tags/VitePress</link>
             <guid>https://jf652366.github.io/tags/VitePress</guid>
-            <pubDate>Fri, 13 Feb 2026 08:49:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
             <content:encoded><![CDATA[
 # VitePress
 
-- [VitePress 项目初始化](/notes/01-常用网站.md)
-- [笔记总揽](/notes/index.md)]]></content:encoded>
+- [VitePress 项目初始化](/notes/01-常用网站)]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[标签]]></title>
             <link>https://jf652366.github.io/tags/</link>
             <guid>https://jf652366.github.io/tags/</guid>
-            <pubDate>Fri, 13 Feb 2026 08:49:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
             <content:encoded><![CDATA[
 # 标签
 
-- [技术文档](/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3)]]></content:encoded>
+- [技术文档](/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3)
+- [VitePress](/tags/VitePress)
+- [前端工程化](/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96)]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[前端工程化]]></title>
             <link>https://jf652366.github.io/tags/前端工程化</link>
             <guid>https://jf652366.github.io/tags/前端工程化</guid>
-            <pubDate>Fri, 13 Feb 2026 08:49:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
             <content:encoded><![CDATA[
 # 前端工程化
 
-- [VitePress 项目初始化](/notes/01-常用网站.md)
-- [笔记总揽](/notes/index.md)]]></content:encoded>
+- [VitePress 项目初始化](/notes/01-常用网站)]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[技术文档]]></title>
             <link>https://jf652366.github.io/tags/技术文档</link>
             <guid>https://jf652366.github.io/tags/技术文档</guid>
-            <pubDate>Fri, 13 Feb 2026 08:49:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
             <content:encoded><![CDATA[
 # 技术文档
 
@@ -151,12 +151,32 @@
             <title><![CDATA[文档系统]]></title>
             <link>https://jf652366.github.io/tags/文档系统</link>
             <guid>https://jf652366.github.io/tags/文档系统</guid>
-            <pubDate>Fri, 13 Feb 2026 08:49:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
             <content:encoded><![CDATA[
 # 文档系统
 
 - [VitePress 项目初始化](/notes/01-常用网站.md)
 - [笔记总揽](/notes/index.md)]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[新增标签]]></title>
+            <link>https://jf652366.github.io/tags/新增标签</link>
+            <guid>https://jf652366.github.io/tags/新增标签</guid>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
+            <content:encoded><![CDATA[
+# 新增标签
+
+- [VitePress 项目初始化](/notes/01-常用网站)]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[演示]]></title>
+            <link>https://jf652366.github.io/tags/演示</link>
+            <guid>https://jf652366.github.io/tags/演示</guid>
+            <pubDate>Fri, 13 Feb 2026 08:51:50 GMT</pubDate>
+            <content:encoded><![CDATA[
+# 演示
+
+- [VitePress 项目初始化](/notes/01-常用网站)]]></content:encoded>
         </item>
     </channel>
 </rss>
