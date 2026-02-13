@@ -26,6 +26,6 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }} # optional, set if GITHUB_TOKEN lacks permission
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/.vitepress/dist
+          publish_dir: .vitepress/dist
           cname: jf652366.github.io
           allow_empty_commit: true

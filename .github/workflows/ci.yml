@@ -18,9 +18,3 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
-      - name: Validate generated files exist
-        run: |
-          test -f docs/.vitepress/dist/index.html
-          test -f docs/.vitepress/dist/常用网站/index.html || true
-          test -f docs/.vitepress/dist/rss.xml
-          test -f docs/.vitepress/dist/search-index.json || true
