@@ -16,7 +16,9 @@ jobs:
           cache: 'npm'
       - name: Configure npm registry
         run: npm config set registry https://registry.npmjs.org/
-      - name: Install
-        run: npm ci
+      - name: Install dependencies
+        run: |
+          rm -rf node_modules
+          npm install
       - name: Build
         run: npm run build
