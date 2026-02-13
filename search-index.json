@@ -20,45 +20,15 @@
     "tags": []
   },
   {
-    "title": "VitePress",
-    "url": "/tags/VitePress",
-    "body": "\n  VitePress\n\n-  VitePress 项目初始化 (/notes/01-常用网站)",
-    "tags": []
-  },
-  {
     "title": "标签",
     "url": "/tags/",
     "body": "\n  标签\n\n-  技术文档 (/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3)",
     "tags": []
   },
   {
-    "title": "前端工程化",
-    "url": "/tags/前端工程化",
-    "body": "\n  前端工程化\n\n-  VitePress 项目初始化 (/notes/01-常用网站)",
-    "tags": []
-  },
-  {
     "title": "技术文档",
     "url": "/tags/技术文档",
     "body": "\n  技术文档\n\n-  常用网站 (/notes/01-常用网站)",
-    "tags": []
-  },
-  {
-    "title": "文档系统",
-    "url": "/tags/文档系统",
-    "body": "\n  文档系统\n\n-  VitePress 项目初始化 (/notes/01-常用网站.md)\n-  笔记总揽 (/notes/index.md)",
-    "tags": []
-  },
-  {
-    "title": "新增标签",
-    "url": "/tags/新增标签",
-    "body": "\n  新增标签\n\n-  VitePress 项目初始化 (/notes/01-常用网站)",
-    "tags": []
-  },
-  {
-    "title": "演示",
-    "url": "/tags/演示",
-    "body": "\n  演示\n\n-  VitePress 项目初始化 (/notes/01-常用网站)",
     "tags": []
   }
 ]
