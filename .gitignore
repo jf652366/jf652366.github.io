@@ -5,10 +5,13 @@ db.json
 node_modules/
 public/
 !docs/.vitepress/public/
-!docs/public/
 .deploy*/
 _multiconfig.yml
 .idea
 
 docs/.vitepress/dist/
 docs/.vitepress/cache/
+
+# 自动生成的文件
+docs/public/*.json
+docs/public/*.xml
