@@ -19,8 +19,10 @@ function walk(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true })
   for (const entry of entries) {
     const res = path.resolve(dir, entry.name)
-    if (entry.isDirectory()) walk(res)
-    else if (entry.isFile() && entry.name.endsWith('.md')) files.push(res)
+    // Use stat instead of isDirectory to follow symlinks
+    const stat = fs.statSync(res)
+    if (stat.isDirectory()) walk(res)
+    else if (stat.isFile() && entry.name.endsWith('.md')) files.push(res)
   }
 }
 
@@ -34,7 +36,7 @@ for (const file of files) {
   const parsed = matter(content)
   const title = parsed.data.title || rel
   const date = parsed.data.date ? new Date(parsed.data.date) : null
-  const url = site.link + '/' + rel.replace(/\\.md$/, '').replace(/index$/, '').replace(/\\/g, '/')
+  const url = site.link + '/' + rel.replace(/\.md$/, '').replace(/index$/, '').replace(/\\/g, '/')
   posts.push({ title, date, url, excerpt: parsed.data.description || '', content: parsed.content })
 }
 
