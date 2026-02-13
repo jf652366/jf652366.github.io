@@ -4,14 +4,14 @@
         <title>jf652366</title>
         <link>https://jf652366.github.io</link>
         <description>迁移后的 VitePress 站点</description>
-        <lastBuildDate>Fri, 13 Feb 2026 08:20:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Feb 2026 08:29:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[首页]]></title>
             <link>https://jf652366.github.io/index.md</link>
             <guid>https://jf652366.github.io/index.md</guid>
-            <pubDate>Fri, 13 Feb 2026 08:20:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:29:11 GMT</pubDate>
             <content:encoded><![CDATA[
 柏川记录
 
@@ -21,7 +21,7 @@
             <title><![CDATA[VitePress]]></title>
             <link>https://jf652366.github.io/tags/VitePress.md</link>
             <guid>https://jf652366.github.io/tags/VitePress.md</guid>
-            <pubDate>Fri, 13 Feb 2026 08:20:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:29:11 GMT</pubDate>
             <content:encoded><![CDATA[
 # VitePress
 
@@ -32,19 +32,17 @@
             <title><![CDATA[标签]]></title>
             <link>https://jf652366.github.io/tags/index.md</link>
             <guid>https://jf652366.github.io/tags/index.md</guid>
-            <pubDate>Fri, 13 Feb 2026 08:20:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:29:11 GMT</pubDate>
             <content:encoded><![CDATA[
 # 标签
 
-- [VitePress](/tags/VitePress)
-- [文档系统](/tags/%E6%96%87%E6%A1%A3%E7%B3%BB%E7%BB%9F)
-- [前端工程化](/tags/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96)]]></content:encoded>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[前端工程化]]></title>
             <link>https://jf652366.github.io/tags/前端工程化.md</link>
             <guid>https://jf652366.github.io/tags/前端工程化.md</guid>
-            <pubDate>Fri, 13 Feb 2026 08:20:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:29:11 GMT</pubDate>
             <content:encoded><![CDATA[
 # 前端工程化
 
@@ -55,7 +53,7 @@
             <title><![CDATA[文档系统]]></title>
             <link>https://jf652366.github.io/tags/文档系统.md</link>
             <guid>https://jf652366.github.io/tags/文档系统.md</guid>
-            <pubDate>Fri, 13 Feb 2026 08:20:06 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 08:29:11 GMT</pubDate>
             <content:encoded><![CDATA[
 # 文档系统
 
