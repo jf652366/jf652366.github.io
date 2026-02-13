@@ -4,102 +4,24 @@
         <title>jf652366</title>
         <link>https://jf652366.github.io</link>
         <description>迁移后的 VitePress 站点</description>
-        <lastBuildDate>Fri, 13 Feb 2026 09:02:03 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Feb 2026 09:04:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[首页]]></title>
             <link>https://jf652366.github.io/</link>
             <guid>https://jf652366.github.io/</guid>
-            <pubDate>Fri, 13 Feb 2026 09:02:03 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 09:04:27 GMT</pubDate>
             <content:encoded><![CDATA[
 柏川记录
 
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[常用网站02]]></title>
-            <link>https://jf652366.github.io/notes/01-常用网站 copy</link>
-            <guid>https://jf652366.github.io/notes/01-常用网站 copy</guid>
-            <pubDate>Fri, 13 Feb 2026 09:02:03 GMT</pubDate>
-            <description><![CDATA[柏川常用网站]]></description>
-            <content:encoded><![CDATA[
-常用网站汇总02
-
-### 学习02
-#### vue 风格指南
-[https://v2.cn.vuejs.org/v2/style-guide/](https://v2.cn.vuejs.org/v2/style-guide/)
-
-#### 前端优秀框架排行
-[https://bestofjs.org/](https://bestofjs.org/)
-
-#### 开发学习路线图
-[https://roadmap.sh/](https://roadmap.sh/)
-
-#### 前端年度调查
-[https://2024.stateofreact.com/zh-Hans/other-tools/](https://2024.stateofreact.com/zh-Hans/other-tools/)
-
-#### MobX
-[https://www.mobxjs.com/](https://www.mobxjs.com/)
-
-#### 编程语言排行榜
-[https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
-
-### 工具
-#### 思维导图
-[https://www.processon.com/](https://www.processon.com/)
-
-#### 画图
-[https://excalidraw.com/](https://excalidraw.com/)
-
-#### 页面性能测试工具
-[https://pagespeed.web.dev/](https://pagespeed.web.dev/)
-
-#### 在线代码
-[https://codesandbox.io/](https://codesandbox.io/)
-
-#### 图床
-[https://picx.xpoet.cn/#/upload](https://picx.xpoet.cn/#/upload)
-
-#### 代码美化
-> 生成代码美化图片
->
-[https://carbon.now.sh/](https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false)
-
-#### 在线部署
-> 服务部署
->
-[https://dash.cloudflare.com/8f402a117672ec1c4fe2a918740967cd/home/domains](https://dash.cloudflare.com/8f402a117672ec1c4fe2a918740967cd/home/domains)
-
-
-
-### 工作
-#### 阿里云效
-[https://devops.aliyun.com/workbench?orgId=65bda0cc3f687c52631c610e](https://devops.aliyun.com/workbench?orgId=65bda0cc3f687c52631c610e)
-
-### 资源
-#### 魔法
-[https://iguge.net/](https://iguge.net/)
-
-#### 狗狗加速
-[https://bitbucket.org/doggygo/url/src/main/](https://bitbucket.org/doggygo/url/src/main/)
-
-### AI
-#### ai 排行榜
-[https://www.superclueai.com/arena?type=video&tab=arena](https://www.superclueai.com/arena?type=video&tab=arena)
-
-####  魔搭社区
-[https://modelscope.cn/home](https://modelscope.cn/home)
-
-#### 优秀 skill 仓库
-[https://skillsmp.com](https://skillsmp.com)
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[常用网站]]></title>
             <link>https://jf652366.github.io/notes/01-常用网站</link>
             <guid>https://jf652366.github.io/notes/01-常用网站</guid>
-            <pubDate>Fri, 13 Feb 2026 09:02:03 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 09:04:27 GMT</pubDate>
             <description><![CDATA[柏川常用网站]]></description>
             <content:encoded><![CDATA[
 常用网站汇总
@@ -174,10 +96,88 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[常用网站02]]></title>
+            <link>https://jf652366.github.io/notes/02-常用网站copy</link>
+            <guid>https://jf652366.github.io/notes/02-常用网站copy</guid>
+            <pubDate>Fri, 13 Feb 2026 09:04:27 GMT</pubDate>
+            <description><![CDATA[柏川常用网站]]></description>
+            <content:encoded><![CDATA[
+常用网站汇总02
+
+### 学习02
+#### vue 风格指南
+[https://v2.cn.vuejs.org/v2/style-guide/](https://v2.cn.vuejs.org/v2/style-guide/)
+
+#### 前端优秀框架排行
+[https://bestofjs.org/](https://bestofjs.org/)
+
+#### 开发学习路线图
+[https://roadmap.sh/](https://roadmap.sh/)
+
+#### 前端年度调查
+[https://2024.stateofreact.com/zh-Hans/other-tools/](https://2024.stateofreact.com/zh-Hans/other-tools/)
+
+#### MobX
+[https://www.mobxjs.com/](https://www.mobxjs.com/)
+
+#### 编程语言排行榜
+[https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
+
+### 工具
+#### 思维导图
+[https://www.processon.com/](https://www.processon.com/)
+
+#### 画图
+[https://excalidraw.com/](https://excalidraw.com/)
+
+#### 页面性能测试工具
+[https://pagespeed.web.dev/](https://pagespeed.web.dev/)
+
+#### 在线代码
+[https://codesandbox.io/](https://codesandbox.io/)
+
+#### 图床
+[https://picx.xpoet.cn/#/upload](https://picx.xpoet.cn/#/upload)
+
+#### 代码美化
+> 生成代码美化图片
+>
+[https://carbon.now.sh/](https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-dark&wt=none&l=jsx&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false)
+
+#### 在线部署
+> 服务部署
+>
+[https://dash.cloudflare.com/8f402a117672ec1c4fe2a918740967cd/home/domains](https://dash.cloudflare.com/8f402a117672ec1c4fe2a918740967cd/home/domains)
+
+
+
+### 工作
+#### 阿里云效
+[https://devops.aliyun.com/workbench?orgId=65bda0cc3f687c52631c610e](https://devops.aliyun.com/workbench?orgId=65bda0cc3f687c52631c610e)
+
+### 资源
+#### 魔法
+[https://iguge.net/](https://iguge.net/)
+
+#### 狗狗加速
+[https://bitbucket.org/doggygo/url/src/main/](https://bitbucket.org/doggygo/url/src/main/)
+
+### AI
+#### ai 排行榜
+[https://www.superclueai.com/arena?type=video&tab=arena](https://www.superclueai.com/arena?type=video&tab=arena)
+
+####  魔搭社区
+[https://modelscope.cn/home](https://modelscope.cn/home)
+
+#### 优秀 skill 仓库
+[https://skillsmp.com](https://skillsmp.com)
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[笔记总揽]]></title>
             <link>https://jf652366.github.io/notes/</link>
             <guid>https://jf652366.github.io/notes/</guid>
-            <pubDate>Fri, 13 Feb 2026 09:02:03 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 09:04:27 GMT</pubDate>
             <description><![CDATA[从 0 搭建一个可用于知识库的 VitePress 项目]]></description>
             <content:encoded><![CDATA[
 # 笔记总揽
@@ -187,7 +187,7 @@
             <title><![CDATA[标签]]></title>
             <link>https://jf652366.github.io/tags/</link>
             <guid>https://jf652366.github.io/tags/</guid>
-            <pubDate>Fri, 13 Feb 2026 09:02:03 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 09:04:27 GMT</pubDate>
             <content:encoded><![CDATA[
 # 标签
 
@@ -197,12 +197,12 @@
             <title><![CDATA[技术文档]]></title>
             <link>https://jf652366.github.io/tags/技术文档</link>
             <guid>https://jf652366.github.io/tags/技术文档</guid>
-            <pubDate>Fri, 13 Feb 2026 09:02:03 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 09:04:27 GMT</pubDate>
             <content:encoded><![CDATA[
 # 技术文档
 
-- [常用网站02](/notes/01-常用网站 copy)
-- [常用网站](/notes/01-常用网站)]]></content:encoded>
+- [常用网站](/notes/01-常用网站)
+- [常用网站02](/notes/02-常用网站copy)]]></content:encoded>
         </item>
     </channel>
 </rss>
