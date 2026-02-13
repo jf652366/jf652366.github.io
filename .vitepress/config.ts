@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/',
   lang: 'zh-CN',
   srcDir: './src',
-  cleanUrls: false,
+  cleanUrls: true,
   head: [
     ['meta', { name: 'description', content: '柏川知识库' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }]
