@@ -1,6 +1,7 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "jf652366.github.io",
+  "version": "1.0.0",
+  "description": "柏川知识系统 - 基于 VitePress 的个人博客",
   "type": "module",
   "private": true,
   "dependencies": {
@@ -19,7 +20,11 @@
     "prebuild": "node scripts/build-search-index.js && node scripts/generate-feeds.js && node scripts/generate-tags.js",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "deploy": "gh-pages -d docs/.vitepress/dist"
+    "deploy": "gh-pages -d docs/.vitepress/dist",
+    "clean": "rm -rf docs/.vitepress/dist docs/.vitepress/cache",
+    "server": "vitepress dev docs"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

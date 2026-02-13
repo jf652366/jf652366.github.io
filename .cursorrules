@@ -1,11 +1,11 @@
 # Package Management
-Always use `yarn` for package management. Do not use `npm` for installing dependencies.
+Always use `npm` for package management. Do not use `yarn` for installing dependencies.
 
-- Install dependencies: `yarn install`
-- Add a package: `yarn add <package>`
-- Remove a package: `yarn remove <package>`
-- Run scripts: `yarn <script>`
-- Start project: `yarn server`
+- Install dependencies: `npm install`
+- Add a package: `npm install <package>`
+- Remove a package: `npm uninstall <package>`
+- Run scripts: `npm run <script>`
+- Start project: `npm run server`
 
 # Git Commit Messages
 When generating git commit messages, always use Chinese (Simplified).

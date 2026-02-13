@@ -10,5 +10,11 @@ public/
 _multiconfig.yml
 .idea
 
+# Package manager lock files (使用 npm)
+yarn.lock
+npm-debug.log*
+yarn-error.log
+
+# Build outputs
 docs/.vitepress/dist/
 docs/.vitepress/cache/
