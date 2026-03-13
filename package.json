@@ -10,7 +10,7 @@
   "devDependencies": {
     "@types/node": "^22.19.8",
     "feed": "^4.2.2",
-    "gh-pages": "^5.0.0",
+    "gh-pages": "^6.3.0",
     "glob": "^10.3.3",
     "gray-matter": "^4.0.3",
     "vitepress": "^1.6.4"
