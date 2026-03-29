@@ -4,3 +4,8 @@ node_modules
 .vitepress/cache
 yarn.lock
 .DS_Store
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
