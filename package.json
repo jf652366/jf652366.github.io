@@ -5,7 +5,8 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "flexsearch": "^0.7.43"
+    "flexsearch": "^0.7.43",
+    "markdown-it-footnote": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.19.8",
@@ -13,14 +14,18 @@
     "gh-pages": "^5.0.0",
     "glob": "^10.3.3",
     "gray-matter": "^4.0.3",
+    "puppeteer": "^24.40.0",
     "vitepress": "^1.6.4"
   },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
     "serve": "vitepress serve",
-    "deploy": "gh-pages -d .vitepress/dist",
-    "clean": "rm -rf .vitepress/dist .vitepress/cache"
+    "deploy": "gh-pages -d .vitepress/dist -b gh-pages",
+    "clean": "rm -rf .vitepress/dist .vitepress/cache",
+    "clean:all": "npm run clean && rm -rf node_modules package-lock.json",
+    "reinstall": "npm run clean:all && npm install",
+    "preview": "npm run build && npm run serve"
   },
   "engines": {
     "node": ">=18.0.0"
