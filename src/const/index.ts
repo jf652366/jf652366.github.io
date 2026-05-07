@@ -33,7 +33,7 @@ export const sidebar = {
           text: '📚 学习笔记',
           items: [
             { text: '常用网站', link: '/docs/notes/01-常用网站' },
-            { text: '前端开发', link: '/docs/notes/frontend' },
+            { text: '改善既有代码的设计', link: '/docs/notes/02-改善既有代码的设计' },
             { text: '编程基础', link: '/docs/notes/basics' }
           ]
         },
