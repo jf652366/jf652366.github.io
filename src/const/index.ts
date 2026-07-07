@@ -19,6 +19,10 @@ export const nav = [
     ]
   },
   {
+    text: '简历',
+    link: '/resume'
+  },
+  {
     text: '关于',
     link: '/about'
   }
