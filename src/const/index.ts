@@ -37,31 +37,25 @@ export const sidebar = {
           text: '📚 学习笔记',
           items: [
             { text: '常用网站', link: '/docs/notes/01-常用网站' },
-            { text: '改善既有代码的设计', link: '/docs/notes/02-改善既有代码的设计' },
-            { text: '编程基础', link: '/docs/notes/basics' }
+            { text: '改善既有代码的设计', link: '/docs/notes/02-改善既有代码的设计' }
           ]
         },
         {
           text: '🛠️ 工具资源',
           items: [
-            { text: '在线工具', link: '/docs/tools/online' },
-            { text: '开发工具', link: '/docs/tools/dev' },
-            { text: '设计工具', link: '/docs/tools/design' }
+            { text: '工具介绍', link: '/docs/tools' }
           ]
         },
         {
           text: '💼 工作相关',
           items: [
-            { text: '项目管理', link: '/docs/work/project' },
-            { text: '团队协作', link: '/docs/work/collaboration' },
-            { text: '开发流程', link: '/docs/work/process' }
+            { text: '工作经验', link: '/docs/work' }
           ]
         },
         {
           text: '🤖 AI 相关',
           items: [
-            { text: 'AI 工具', link: '/docs/ai/tools' },
-            { text: 'AI 学习', link: '/docs/ai/learning' }
+            { text: 'AI 资源', link: '/docs/ai' }
           ]
         }
       ]
